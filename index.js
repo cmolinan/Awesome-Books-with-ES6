@@ -1,4 +1,7 @@
-import { DateTime } from './modules/luxon-min.js';
+import { DateTime } from './node_modules/luxon/src/luxon.js';
+
+// import { DateTime } from './modules/luxon-min.js';
+
 import Library from './modules/library.js';
 
 const library = new Library();
