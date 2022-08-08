@@ -1,7 +1,6 @@
 import { DateTime } from './modules/luxon-min.js';
 import Library from './modules/library.js';
 
-
 const library = new Library();
 
 // Book local storage
